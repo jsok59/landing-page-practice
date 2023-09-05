@@ -1,19 +1,20 @@
 #goldendoodle {
-    max-height: 500px;
-    max-width: 300px;
+    /* max-height: 500px;
+    max-width: 300px; */
 }
 
 
 .logo {
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: extra-bold;
     color: #F9FAF8;
     margin-top: 0px;
     margin-bottom: 0px;;
 }
 .container1 {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: center;
+    gap: 425px;
     
     /* border: blue 2px solid; */
 }
@@ -26,24 +27,24 @@
 
 .container3 {
     display: flex;
-    gap: 8px;
-    justify-content: space-between;
+    gap: 200px;
+    justify-content: center;
     /* border: red solid 2px; */
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: #E5E7EB;
 }
 
 .container3-item {
  
     width: 300px;
-    max-height: 250px;;
+   
     justify-content: space-between;
     padding-top: 0;
     margin-top: 0;
 }
 .awesome {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: extra-bold;
     color: #F9FAF8;
     margin: 0;
@@ -53,22 +54,93 @@
     padding-left: 120px;
     padding-right: 120px;
     background-color: #1F2937;
+    max-height: 200px;
 }
 
 a {
-    font-size: 18px;
+    font-size: 12px;
     color: #E5E7EB;
     text-decoration: none;
 }
 
 .container4 {
+    margin-top: 20px;
+    margin-bottom: 90px;
     display: flex;
-    font-weight: bolder;
-    font-size: 20px;
+    
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.info {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.container5-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+.bluebox {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+    overflow: hidden;
+    
+}
+
+.container6 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container6-items .author {
+    align-items: end;
 
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px;
+    color:#E5E7EB;
+    font-weight:bolder;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+}
+
+img {
+    object-fit: contain;
+}
+.kawhi {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    
+}
+
+.subtext {
+    margin-top: 5px;;
+    font-size: 15px;
+    color: #1F2937;
 }
